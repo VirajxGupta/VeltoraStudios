@@ -9,19 +9,22 @@ const projects = [
         title: 'Ticket Gen System',
         category: 'Development / 2025',
         img: '/ticket-gen-system.png',
-        link: 'https://ticket-generation-system-pv6k.vercel.app/'
+        link: 'https://ticket-generation-system-pv6k.vercel.app/',
+        description: 'robust ticket generation system built for scale, featuring automated workflows and real-time processing.'
     },
     {
-        title: 'PM AI Platform',
+        title: 'Internship Recommender System',
         category: 'AI Platform / 2025',
         img: '/pm-ai-platform.png',
-        link: 'https://pm-ai-internship-scheme-platform.onrender.com/'
+        link: 'https://pm-ai-internship-scheme-platform.onrender.com/',
+        description: 'intelligent recommendation engine for product management internships, utilizing advanced matching algorithms.'
     },
     {
         title: 'Legacy Portfolio',
         category: 'Design / 2024',
         img: '/portfolio.png',
-        link: 'https://portfolio-gray-nu-jlx9n13pmd.vercel.app/#'
+        link: 'https://portfolio-gray-nu-jlx9n13pmd.vercel.app/#',
+        description: 'experimental UI design exploring calm motion principles and architectural clarity in digital spaces.'
     }
 ];
 
@@ -132,7 +135,7 @@ export default function Work() {
                                         {item.title}
                                     </h3>
                                     <p className="text-lg text-premium-text/40 font-body lowercase leading-relaxed">
-                                        experimental UI design for a decentralized protocol focusing on calm motion and architectural clarity.
+                                        {item.description}
                                     </p>
                                     <a
                                         href={item.link}
