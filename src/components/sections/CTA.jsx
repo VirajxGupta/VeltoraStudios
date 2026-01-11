@@ -56,14 +56,17 @@ export default function CTA() {
                 </p>
 
                 <div className="pt-8">
-                    <button
+                    <a
+                        href="https://mail.google.com/mail/?view=cm&fs=1&to=virajgupta.work@gmail.com&su=Portfolio%20Contact&body=Hi%20Viraj%2C%0A%0AI%27d%20like%20to%20discuss%20a%20project."
+                        target="_blank"
+                        rel="noopener noreferrer"
                         ref={buttonRef}
-                        className="group relative px-16 py-8 bg-premium-text text-premium-bg font-black text-2xl uppercase rounded-full overflow-hidden transition-all hover:scale-105"
+                        className="group relative px-16 py-8 bg-premium-text text-premium-bg font-black text-2xl uppercase rounded-full overflow-hidden transition-all hover:scale-105 inline-block"
                     >
                         <span className="relative z-10">Start mission</span>
                         <div className="absolute inset-0 bg-lavender translate-y-full group-hover:translate-y-0 transition-transform duration-500" />
                         <div className="absolute inset-0 bg-premium-text opacity-0 group-hover:opacity-100 transition-opacity" />
-                    </button>
+                    </a>
                 </div>
             </div>
         </section>

@@ -31,20 +31,13 @@ export default function Footer() {
                     <div className="space-y-6">
                         <span className="text-[10px] font-mono uppercase tracking-widest opacity-30">Socials</span>
                         <ul className="space-y-4 text-sm font-medium">
-                            <li className="interactive hover:text-lavender transition-colors">Twitter (X)</li>
-                            <li className="interactive hover:text-sky transition-colors">Instagram</li>
-                            <li className="interactive hover:text-peach transition-colors">Are.na</li>
+                            <li className="interactive hover:text-lavender transition-colors"><a href="https://www.linkedin.com/in/viraj-gupta-ok" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                            <li className="interactive hover:text-peach transition-colors"><a href="https://www.reddit.com/user/__fluf_/" target="_blank" rel="noopener noreferrer">Reddit</a></li>
+                            <li className="interactive hover:text-sky transition-colors"><a href="https://mail.google.com/mail/?view=cm&fs=1&to=virajgupta.work@gmail.com&su=Portfolio%20Contact&body=Hi%20Viraj%2C%0A%0AI%27d%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener noreferrer">Email</a></li>
                         </ul>
                     </div>
 
-                    <div className="space-y-6">
-                        <span className="text-[10px] font-mono uppercase tracking-widest opacity-30">Studio</span>
-                        <ul className="space-y-4 text-sm font-medium">
-                            <li className="interactive hover:text-lavender transition-colors">Manifesto</li>
-                            <li className="interactive hover:text-sky transition-colors">Archive</li>
-                            <li className="interactive hover:text-peach transition-colors">Contact</li>
-                        </ul>
-                    </div>
+
 
                     <div className="space-y-6 col-span-2 md:col-span-1">
                         <span className="text-[10px] font-mono uppercase tracking-widest opacity-30">Local Time</span>
