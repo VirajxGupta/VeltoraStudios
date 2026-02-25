@@ -16,7 +16,7 @@ const projects = [
         title: 'Internship Recommender System',
         category: 'AI Platform / 2025',
         img: '/pm-ai-platform.png',
-        link: 'https://pm-ai-internship-scheme-platform.onrender.com/',
+        link: 'https://internfinder-tbhs.vercel.app/',
         description: 'intelligent recommendation engine for product management internships, utilizing advanced matching algorithms.'
     },
     {
@@ -25,6 +25,13 @@ const projects = [
         img: '/portfolio.png',
         link: 'https://portfolio-gray-nu-jlx9n13pmd.vercel.app/#',
         description: 'experimental UI design exploring calm motion principles and architectural clarity in digital spaces.'
+    },
+    {
+        title: 'Aarunya 2.0',
+        category: 'College Fest / 2026',
+        img: '/aarunya.png',
+        link: 'https://aarunya.harshitvarshney.in/',
+        description: 'Aarunya 2.0 is an immersive, interactive 3D web experience built for the annual cultural fest of MITS Gwalior, featuring a vibrant "KidCore-Retro" theme. Developed using React, Three.js, and Tailwind CSS, the platform offers users a virtual campus explorer complete with seamless authentication, event registrations, and dynamic animations.'
     }
 ];
 
