@@ -19,13 +19,13 @@ const projects = [
         link: 'https://internfinder-tbhs.vercel.app/',
         description: 'intelligent recommendation engine for product management internships, utilizing advanced matching algorithms.'
     },
-    {
-        title: 'Legacy Portfolio',
-        category: 'Design / 2024',
-        img: '/portfolio.png',
-        link: 'https://portfolio-gray-nu-jlx9n13pmd.vercel.app/#',
-        description: 'experimental UI design exploring calm motion principles and architectural clarity in digital spaces.'
-    },
+    // {
+    //     title: 'Legacy Portfolio',
+    //     category: 'Design / 2024',
+    //     img: '/portfolio.png',
+    //     link: 'https://portfolio-gray-nu-jlx9n13pmd.vercel.app/#',
+    //     description: 'experimental UI design exploring calm motion principles and architectural clarity in digital spaces.'
+    // },
     {
         title: 'Aarunya 2.0',
         category: 'College Fest / 2026',
